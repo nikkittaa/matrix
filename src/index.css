@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #088ec8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
